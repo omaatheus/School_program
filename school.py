@@ -5,11 +5,6 @@ mediaCalculada = (media1 + media2) / 2
 
 mediaCorreta = float(f'{mediaCalculada:.1f}')
 
-# if (mediaCorreta >= 7):
-#     print(f'Parabéns, sua nota foi de {mediaCorreta} e você passou!')
-# else:
-#     print(f'Sua nota foi de {mediaCorreta} e infelizmente você ficou retido.')
-    
 if (mediaCorreta < 4):
     print(f'Você está retido, sua nota foi de: {mediaCorreta}')
 else:
